@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.me {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.my_name {
+    margin-left: 160px;
+    margin-top: 45px;
+}
+
+.my_photo {
+    width: 50%;
+}
+
+#picture1{
+    width: 60%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    box-shadow: 50px 50px rgba(19, 19, 19, 0.899);
+}
+
+@font-face {
+	font-family: 'KyivTypeSans'; 
+	src: url(KyivTypeSansRegular-.otf); 
+}
+
+@font-face {
+	font-family: 'KyivTypeBold'; 
+	src: url(KyivTypeSansBold.otf); 
+}
+
+@font-face {
+	font-family: 'KyivTypeSans2'; 
+	src: url(KyivTypeSansRegular.otf); 
+}
+
+.font1 {
+    font-family: 'KyivTypeSans';
+    color: #000;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 350;
+    margin-bottom: -100px;
+}
+
+.font2 {
+    font-family: 'KyivTypeSans2';
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 350;
+}
+
+.font3 {
+    font-family: 'KyivTypeSans2';
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 130px;
+    width: 80%;
+}
+
+.fontBold {
+    font-family: 'Century gothic';
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -13px;
+    margin-bottom: -13px;
+}
+
+.text {
+    font-family: 'Century gothic';
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    margin-left: 30px;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.sec1 {
+   margin-left: 8%; 
+   margin-right: 10%;
+}
+
+.sec2 {
+    margin-right: 10%;
+}
+
+#tg, #wa, #vk {
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: white;
+}
+
+#vk {
+    margin-left: 230px;
+}
+
+.image {
+    width: 45px;
+    height: 45px;
+}
+
+.icon {
+    display: flex;
+}
+
+.soft-skills {
+    margin-top: 85px;
+}
